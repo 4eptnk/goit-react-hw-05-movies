@@ -18,6 +18,5 @@
 }
 
 .activeLink {
-  composes: link;
-  color: #fc0362;
+  color: #03fca9;
 }

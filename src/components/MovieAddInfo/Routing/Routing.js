@@ -3,12 +3,8 @@ import { Route, Switch } from "react-router-dom";
 
 import routePath from "../../../routesPath";
 
-const Cast = lazy(() =>
-  import("../../../views/Cast/Cast" /* webpackChunkName:"cast"*/)
-);
-const Reviews = lazy(() =>
-  import("../../../views/Reviews/Reviews" /* webpackChunkName:"reviews"*/)
-);
+const Cast = lazy(() => import("../../../views/Cast/Cast"));
+const Reviews = lazy(() => import("../../../views/Reviews/Reviews"));
 
 const MovieAddInfoRoute = () => {
   return (

@@ -4,10 +4,10 @@
 
 .link {
   text-decoration: none;
-  color: #2a363b;
+  color: #000;
 }
 
 .link:hover,
 .link:focus {
-  color: #fc0362;
+  color: #03fca9;
 }
